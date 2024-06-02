@@ -267,7 +267,7 @@ footer {
 
 @media (max-width: 768px) {
   .navcontainer {
-    padding: 1.2rem 6rem;
+    padding: 1.2rem 4rem;
     gap: 4rem;
   }
 
@@ -315,7 +315,7 @@ footer {
     font-size: 40%;
   }
   .navcontainer {
-    padding: 1.2rem 6rem;
+    padding: 1.2rem 4rem;
   }
 
   .content {
