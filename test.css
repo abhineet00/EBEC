@@ -11,12 +11,12 @@ html {
   font-size: 62.5%;
 }
 .navcontainer {
-  padding: 1.2rem 12rem 1.2rem 12rem;
+  padding: 1.2rem 8rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+
   background-color: #fefbff;
   box-shadow: 0 8px 12px rgb(155, 40, 141, 0.1);
 }
@@ -160,7 +160,6 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 2rem;
 }
 .footer-content a {
   text-decoration: none;
@@ -183,7 +182,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   gap: 1rem;
 }
 .social-item {
@@ -205,7 +204,7 @@ footer {
   gap: 2rem;
 }
 .footer-items a {
-  margin-right: 0rem;
+  margin-right: 2rem;
 }
 
 /*  queries  */
@@ -249,8 +248,8 @@ footer {
   }
 
   footer .footer-content {
-    flex-direction: column;
     align-items: center;
+    gap: 4rem;
   }
 
   footer .part1 {
@@ -260,14 +259,15 @@ footer {
   .social {
     align-items: center;
   }
-  .footer-items {
+  .footer-items a {
     text-align: center;
+    margin: 0;
   }
 }
 
 @media (max-width: 768px) {
   .navcontainer {
-    padding: 4rem 4rem;
+    padding: 1.2rem 6rem;
     gap: 4rem;
   }
 
@@ -315,7 +315,7 @@ footer {
     font-size: 40%;
   }
   .navcontainer {
-    padding: 4rem 2rem;
+    padding: 1.2rem 6rem;
   }
 
   .content {
@@ -330,5 +330,3 @@ footer {
     padding: 4rem 2rem;
   }
 }
-
-/* Add any other necessary media queries */
