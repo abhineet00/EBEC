@@ -205,7 +205,7 @@ footer {
   gap: 2rem;
 }
 .footer-items a {
-  margin-right: 2rem;
+  margin-right: 0rem;
 }
 
 /*  queries  */
