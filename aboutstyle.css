@@ -293,19 +293,19 @@ footer {
     padding: 2rem 2rem;
   }
   .content p {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
   .content span {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
   }
   .teamcontent {
     font-size: 4rem;
   }
   .card p {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
   }
   .card span {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   footer .footer-content {
     flex-direction: column;
@@ -336,11 +336,11 @@ footer {
     padding: 2rem 2rem;
   }
   .content p {
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-align: center;
   }
   .content span {
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-align: center;
   }
   .sdgimg {
@@ -356,9 +356,9 @@ footer {
     font-size: 3rem;
   }
   .card p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
   .card span {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 }
