@@ -90,6 +90,7 @@ nav svg {
 .step {
   font-size: 9.6rem;
   margin-bottom: -2rem;
+  font-weight: bold;
 }
 .head {
   font-size: 7.2rem;
