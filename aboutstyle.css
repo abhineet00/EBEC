@@ -437,7 +437,7 @@ footer {
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
   .navcontainer {
-    padding: 1.2rem 6rem;
+    padding: 1.2rem 8rem;
   }
   .top,
   .teamcontent {
@@ -465,7 +465,7 @@ footer {
 
 @media (max-width: 992px) {
   .navcontainer {
-    padding: 1.2rem 4rem;
+    padding: 1.2rem 6rem;
   }
   .top,
   .teamcontent {
@@ -496,10 +496,10 @@ footer {
     font-size: 50%;
   }
   .navcontainer {
-    padding: 1.2rem 2rem;
+    padding: 1.2rem 4rem;
   }
   .items {
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .hero p {
@@ -538,6 +538,9 @@ footer {
     grid-template-columns: 1fr;
     text-align: center;
   }
+  .footer-items a {
+    margin: 0rem;
+  }
 
   footer .part1 {
     flex-direction: column;
@@ -547,7 +550,7 @@ footer {
 
 @media (max-width: 576px) {
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
   .hero p {
     font-size: 5rem;
@@ -563,6 +566,9 @@ footer {
   }
   .sdgimg {
     justify-content: center;
+  }
+  .sdgimg img {
+    max-width: 10rem;
   }
   .sdglink {
     text-align: center;
