@@ -10,6 +10,8 @@ body {
 html {
   font-size: 62.5%;
 }
+
+/* ///////////////////////////////////////////////// */
 .navcontainer {
   padding: 1.2rem 8rem;
   display: flex;
@@ -35,16 +37,19 @@ nav svg {
   color: #9b288d;
   font-weight: 600;
 }
-.items li {
+.nav-but {
+  display: inline-block;
   border: 1px solid var(--website_black, #242625);
   padding: 1.8rem 2rem;
   width: 15rem;
   text-align: center;
 }
-.items li:hover {
+.nav-but:hover {
   box-shadow: #9b288d 8px 8px 0px 0px;
   transition: box-shadow 0.2s ease;
 }
+
+/* ///////////////////////////////////////////////// */
 .hero {
   display: flex;
   justify-content: center;
@@ -99,7 +104,9 @@ nav svg {
   font-size: 3.2rem;
 }
 .donate-but {
-  margin-top: 2rem;
+  margin: 4rem 0 0 0;
+}
+.button-item {
   padding: 1.6rem 3.2rem;
   background-color: #fefbff;
   color: #9b288d;
@@ -113,7 +120,7 @@ nav svg {
   text-decoration: none;
   color: #9b288d;
 }
-.donate-but:hover {
+.button-item:hover {
   box-shadow: #9b288d 8px 8px 0px 0px;
   transition: box-shadow 0.2s ease;
 }
@@ -341,6 +348,6 @@ footer {
   }
 
   .cta {
-    padding: 4rem 2rem;
+    padding: 8rem 2rem;
   }
 }
