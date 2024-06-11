@@ -33,10 +33,16 @@ nav svg {
 .items a {
   text-decoration: none;
   color: #9b288d;
-  border: 1px solid var(--website_black, #242625);
-  padding: 2rem 2.4rem 2rem 2.4rem;
+  font-weight: 600;
 }
-.items a:hover {
+.nav-but {
+  display: inline-block;
+  border: 1px solid var(--website_black, #242625);
+  padding: 1.8rem 2rem;
+  width: 15rem;
+  text-align: center;
+}
+.nav-but:hover {
   box-shadow: #9b288d 8px 8px 0px 0px;
   transition: box-shadow 0.2s ease;
 }
