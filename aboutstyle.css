@@ -96,6 +96,9 @@ nav svg {
 .content span {
   font-size: 1.8rem;
 }
+
+/* ///////////////////////////////// */
+
 .sdg {
   margin: 6rem 0 0 0;
 }
@@ -118,6 +121,7 @@ nav svg {
   font-size: 1.8rem;
   color: #000000;
 }
+
 .coreteam {
   margin-top: 6rem;
 }
@@ -237,7 +241,24 @@ footer {
 .footer-items a {
   margin-right: 2rem;
 }
+@media (max-width: 1350px) {
+  .sdgimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    max-width: 20rem;
+    margin: 04rem auto;
+  }
 
+  .top {
+    text-align: center !important;
+  }
+  .instagramfeed {
+    text-align: center;
+  }
+}
 @media (max-width: 1200px) {
   .navcontainer {
     padding: 1.2rem 8rem;
@@ -362,20 +383,15 @@ footer {
     font-size: 5rem;
     padding: 2rem 2rem;
   }
-  .top {
-    text-align: center;
-  }
+
   .content p {
     font-size: 2.8rem;
-    text-align: center;
   }
   .instagramfeed {
     font-size: 2.8rem;
-    text-align: center;
   }
   .content span {
     font-size: 2rem;
-    text-align: center;
   }
   .sdgimg {
     justify-content: center;
@@ -383,12 +399,9 @@ footer {
   .sdgimg img {
     max-width: 10rem;
   }
-  .sdglink {
-    text-align: center;
-  }
+
   .teamcontent {
     font-size: 3.2rem;
-    text-align: center;
   }
   .card p {
     font-size: 2.4rem;
@@ -402,6 +415,6 @@ footer {
     margin: 4rem 8rem 6rem 8rem;
   }
   .card {
-    width: 28rem;
+    width: 26rem;
   }
 }
