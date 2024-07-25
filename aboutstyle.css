@@ -68,7 +68,7 @@ nav svg {
   font-weight: 700;
 }
 .video {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 6rem 12rem 6rem 12rem;
@@ -85,7 +85,7 @@ nav svg {
   height: 100%;
 }
 #youtube-error {
-  /* display: none; */
+  display: none;
   color: red;
   font-size: 2rem;
   text-align: center;
