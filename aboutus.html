@@ -49,6 +49,7 @@
       <section>
         <div class="video">
           <iframe
+          id="youtube-video"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/2aKwURxIZpw?si=MbQpGcEL906xt9Mx"
@@ -59,6 +60,9 @@
             allowfullscreen
           ></iframe>
         </div>
+        <div id="youtube-error" >
+          <p>Sorry, the video could not be loaded. <a href="https://www.youtube.com/embed/2aKwURxIZpw?si=MbQpGcEL906xt9Mx" target="_blank">Watch it on YouTube</a>.</p>
+      </div>
       </section>
       <section class="top">
         <div class="story">
@@ -181,7 +185,7 @@
 
 <!-- /////////////////////////////////////////////// -->
 
-      <section class="instagramfeed">
+<section class="instagramfeed">
         <p>Connect with us and our work on Instagram</p>
        
         <div class="insta">
@@ -270,13 +274,11 @@ data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; 
 
 
 </div>
-<style>
-  .boxes3{height:175px;width:153px;} #n img{max-height:none!important;max-width:none!important;background:none!important}
-  #inst i{max-height:none!important;max-width:none!important;background:none!important}
-</style>
+
 </div>
 </div>
-      </section>
+
+</section>
 
 <!-- /////////////////////////////////////////////// -->
 
@@ -341,5 +343,13 @@ data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; 
         </div>
       </div>
     </footer>
+    <script>
+      function handleIframeError() {
+          document.getElementById('youtube-error').style.display = 'block';
+          document.getElementById('youtube-video').style.display = 'none';
+      }
+  
+      document.getElementById('youtube-video').onerror = handleIframeError;
+  </script>
   </body>
 </html>
