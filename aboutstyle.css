@@ -41,12 +41,10 @@ nav svg {
   padding: 1.8rem 2rem;
   width: 15rem;
   text-align: center;
-  transition: 0.3s;
 }
 .nav-but:hover {
   box-shadow: #9b288d 8px 8px 0px 0px;
   transition: box-shadow 0.2s ease;
-  
 }
 .hero {
   position: relative;
@@ -70,7 +68,7 @@ nav svg {
   font-weight: 700;
 }
 .video {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   margin: 6rem 12rem 6rem 12rem;
@@ -85,6 +83,13 @@ nav svg {
   left: 0;
   width: 100%;
   height: 100%;
+}
+#youtube-error {
+  /* display: none; */
+  color: red;
+  font-size: 2rem;
+  text-align: center;
+  margin: 4rem 0;
 }
 .top {
   max-width: 100%;
