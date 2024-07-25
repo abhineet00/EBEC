@@ -41,6 +41,7 @@ nav svg {
   padding: 1.8rem 2rem;
   width: 15rem;
   text-align: center;
+  transition: 0.3s;
 }
 .nav-but:hover {
   box-shadow: #9b288d 8px 8px 0px 0px;
@@ -65,6 +66,7 @@ nav svg {
   color: #fefbff;
   text-align: center;
   padding: 0 12rem 0 12rem;
+  font-weight: 700;
 }
 /* .accordian {
   display: flex;
