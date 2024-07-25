@@ -188,6 +188,7 @@
         <div class="donate_form">
           <p>Fill up the form:</p>
           <iframe
+            id="google-form"
             src="https://docs.google.com/forms/d/e/1FAIpQLSc4Aoo1TjQPMyuhG8Bgk79rD9P9fHTeF_nJPEieJxJp4x5kHA/viewform?embedded=true"
             width="640"
             height="1146"
@@ -196,6 +197,16 @@
             marginwidth="0"
             >Loading…</iframe
           >
+        </div>
+        <div id="form-error">
+          <p>
+            Sorry, the form could not be loaded.
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc4Aoo1TjQPMyuhG8Bgk79rD9P9fHTeF_nJPEieJxJp4x5kHA/viewform?embedded=true"
+              target="_blank"
+              >Fill out the form on Google Forms</a
+            >.
+          </p>
         </div>
       </section>
       <!-- <section>
@@ -282,6 +293,14 @@
           icon.classList.toggle("active");
         });
       });
+    </script>
+    <script>
+      function handleIframeError() {
+        document.getElementById("form-error").style.display = "block";
+        document.getElementById("google-form").style.display = "none";
+      }
+
+      document.getElementById("google-form").onerror = handleIframeError;
     </script>
   </body>
 </html>
