@@ -72,13 +72,45 @@ nav svg {
 }
 
 /* ///////////////////////////////////////////////// */
+.container {
+  position: relative;
+}
+.cards-container {
+  position: relative;
+}
+.scroll-logo-container {
+  position: absolute;
+  height: 80%;
+  top: 10%;
+  left: 38px;
+}
 
+.scroll-logo {
+  position: sticky;
+
+  top: 40%;
+  width: 80%;
+}
+.vertical-dotted-line {
+  position: absolute;
+  width: 10px; /* Line thickness */
+  width: 10px; /* Line thickness */
+  height: 80%; /* Line height */
+  background-image: radial-gradient(
+    circle,
+    rgb(255, 255, 255) 20%,
+    transparent 20%
+  ); /* Dots */
+  background-size: 10px 10px; /* Dot size and spacing */
+  margin-left: 30px;
+  top: 10%;
+}
 .card {
   background-image: url("assets/1.png");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   text-align: center;
 }
 
@@ -131,7 +163,7 @@ nav svg {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   text-align: center;
 }
 .card3 {
@@ -139,7 +171,7 @@ nav svg {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   text-align: center;
 }
 .card4 {
@@ -147,7 +179,7 @@ nav svg {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   text-align: center;
 }
 
@@ -199,7 +231,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   gap: 1rem;
 }
 .social-item {
@@ -213,6 +245,9 @@ footer {
   max-width: 3rem;
 }
 .ytlogo {
+  max-width: 3rem;
+}
+.linklogo {
   max-width: 3rem;
 }
 .footer-items {
@@ -287,7 +322,11 @@ footer {
     margin: 0;
   }
 }
-
+@media (max-width: 850px) {
+  .scroll-logo {
+    width: 50%;
+  }
+}
 @media (max-width: 768px) {
   .navcontainer {
     padding: 1.2rem 4rem;
@@ -307,6 +346,10 @@ footer {
 
   .content {
     padding: 6rem 2rem;
+  }
+  .scroll-logo,
+  .vertical-dotted-line {
+    display: none;
   }
 
   .card-content {
