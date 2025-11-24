@@ -121,6 +121,7 @@ nav svg {
 }
 .sdgimg img {
   max-width: 13rem;
+  transition: transform 0.2s ease;
 }
 .sdgimg img:hover {
   transform: scale(1.1);
@@ -129,6 +130,9 @@ nav svg {
 .sdg a {
   font-size: 1.8rem;
   color: #000000;
+}
+.sdg a:hover {
+  color: #9b288d;
 }
 
 .coreteam {
@@ -163,6 +167,10 @@ nav svg {
   border: #9b288d 6px solid;
   border-radius: 100%;
   width: 18rem;
+}
+.card h1 {
+  color: #555555;
+  font-weight: 500;
 }
 .team {
   display: flex;
@@ -242,6 +250,7 @@ footer {
 .ytlogo {
   max-width: 3rem;
 }
+
 .footer-items {
   display: grid;
   grid-template-columns: 1fr 1fr;
