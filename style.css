@@ -231,7 +231,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   gap: 1rem;
 }
 .social-item {
@@ -245,6 +245,9 @@ footer {
   max-width: 3rem;
 }
 .ytlogo {
+  max-width: 3rem;
+}
+.linklogo {
   max-width: 3rem;
 }
 .footer-items {
